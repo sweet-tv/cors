@@ -1,9 +1,9 @@
 # CORS gin's middleware
 
-[![Run Tests](https://github.com/gin-contrib/cors/actions/workflows/go.yml/badge.svg)](https://github.com/gin-contrib/cors/actions/workflows/go.yml)
-[![codecov](https://codecov.io/gh/gin-contrib/cors/branch/master/graph/badge.svg)](https://codecov.io/gh/gin-contrib/cors)
-[![Go Report Card](https://goreportcard.com/badge/github.com/gin-contrib/cors)](https://goreportcard.com/report/github.com/gin-contrib/cors)
-[![GoDoc](https://godoc.org/github.com/gin-contrib/cors?status.svg)](https://godoc.org/github.com/gin-contrib/cors)
+[![Run Tests](https://github.com/sweet-tv/cors/actions/workflows/go.yml/badge.svg)](https://github.com/sweet-tv/cors/actions/workflows/go.yml)
+[![codecov](https://codecov.io/gh/sweet-tv/cors/branch/master/graph/badge.svg)](https://codecov.io/gh/sweet-tv/cors)
+[![Go Report Card](https://goreportcard.com/badge/github.com/sweet-tv/cors)](https://goreportcard.com/report/github.com/sweet-tv/cors)
+[![GoDoc](https://godoc.org/github.com/sweet-tv/cors?status.svg)](https://godoc.org/github.com/sweet-tv/cors)
 
 Gin middleware/handler to enable CORS support.
 
@@ -14,13 +14,13 @@ Gin middleware/handler to enable CORS support.
 Download and install it:
 
 ```sh
-go get github.com/gin-contrib/cors
+go get github.com/sweet-tv/cors
 ```
 
 Import it in your code:
 
 ```go
-import "github.com/gin-contrib/cors"
+import "github.com/sweet-tv/cors"
 ```
 
 ### Canonical example
@@ -31,7 +31,7 @@ package main
 import (
   "time"
 
-  "github.com/gin-contrib/cors"
+  "github.com/sweet-tv/cors"
   "github.com/gin-gonic/gin"
 )
 
